@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Input Barang</title>
+  </head>
+  <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <br><br><br>
+
+    <form method="POST" action="simpan.php">
+        <table width="50%" border="1" align="center" cellpadding="10">
+            <tr>
+                <td colspan="2" bgcolor="#81d8d0">Data Barang</td>
+            </tr>
+            <tr>
+                <td bgcolor="#b6d7a8">Tanggal</td>
+                <td bgcolor="#cad9dd"><input name="tgl" type="text" id="tgl"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#b6d7a8">No</td>
+                <td bgcolor="#cad9dd"><input name="no" type="text" id="no"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#b6d7a8">Nama Barang</td>
+                <td bgcolor="#cad9dd"><textarea name="nama_brg" wrap="soft" id="nama_brg" size="100"></textarea></td>
+            </tr>
+            <tr>
+                <td bgcolor="#b6d7a8">Harga Jual</td>
+                <td bgcolor="#cad9dd"><input type="text" name="harga_jual" id="harga_jual"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#b6d7a8">Modal</td>
+                <td bgcolor="#cad9dd"><input type="text" name="modal" id="ModalHelm"></td>
+            </tr>
+            <tr>
+                <td bgcolor="#81d8d0" colspan="2"><input type="submit" id="submit" value="Simpan"></td>
+            </tr>
+        </table>
+    </form>
+    <br><br>
+    <center><button><a href="index.php">Tabel Barang</a></button></center>
+  </body>
+</html>
